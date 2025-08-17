@@ -7,3 +7,6 @@
 &ext_power {
     status = "disabled";
 };
+&zephyr_udc0 {
+    status = "disabled";
+};
