@@ -18,5 +18,7 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-      - board: nice_nano_v2
-        shield: soyuz
+include:
+  - board: nice_nano_v2
+    shield: soyuz
+    artifact-name: soyuz_nice_nano_v2
