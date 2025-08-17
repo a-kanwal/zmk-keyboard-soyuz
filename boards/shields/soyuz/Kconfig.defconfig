@@ -1,0 +1,5 @@
+if SHIELD_SOYUZ
+config ZMK_KEYBOARD_NAME
+    # ≤15 chars for USB/BLE name
+    default "Soyuz"
+endif
