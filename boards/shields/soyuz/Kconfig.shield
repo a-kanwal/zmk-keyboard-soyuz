@@ -1,3 +1,5 @@
-# No whitespace in the name!
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
 config SHIELD_SOYUZ
-    def_bool $(shields_list_contains,soyuz)
+	def_bool $(shields_list_contains,soyuz)

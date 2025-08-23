@@ -1,5 +1,9 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
 if SHIELD_SOYUZ
+
 config ZMK_KEYBOARD_NAME
-    # ≤15 chars for USB/BLE name
-    default "Soyuz"
+	default "soyuz"
+
 endif
